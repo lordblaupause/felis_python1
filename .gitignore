@@ -103,6 +103,3 @@ ENV/
 # PyCharm
 .idea
 .idea/
-
-# project
-README.rst
