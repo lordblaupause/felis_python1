@@ -4,10 +4,10 @@ with open('VERSION.txt') as fs:
     VERSION = fs.read().strip()
 
 with open('requirements.txt') as fs:
-    REQUIREMENTS = fs.read.strip().split('\n')
+    REQUIREMENTS = fs.read().strip().split('\n')
 
 def readme():
-    with open('Readme.md') as fs:
+    with open('README.md') as fs:
         return fs.read()
 
 setup(name='felis_python1',
