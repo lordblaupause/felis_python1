@@ -22,5 +22,4 @@ setup(name='felis_python1',
       install_requires=REQUIREMENTS,
       include_package_data=True,
       zip_safe=False
-
 )
